@@ -99,8 +99,10 @@
     }
   }
   i.fa.fa-inverse {
-    margin-top: 10px;
+    margin-top: .4em;
+    font-size:5em;
 }
+
 }
 @media(min-width:768px) {
   .timeline {
@@ -133,8 +135,10 @@
         text-align: left;
       }
     }
+    
   }
 }
+
 @media(min-width:992px) {
   .timeline {
     > li {
@@ -178,4 +182,14 @@
       }
     }
   }
+}
+
+@media(max-width:992px){
+  .timeline{
+    i.fa.fa-inverse {
+      margin-top: .3em;
+      font-size: 2.5em;
+      }
+  }
+  
 }
