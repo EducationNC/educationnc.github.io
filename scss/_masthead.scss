@@ -2,10 +2,16 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/inside_brew-min.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  // background-image: url('../img/background2.jpg');
+  // background-repeat: no-repeat;
+  // background-attachment: scroll;
+  // background-position: center center;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../img/background2.jpg');
   @include background-cover;
   .intro-text {
     padding-top: 150px;
